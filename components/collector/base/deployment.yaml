@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: collector
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/zregvart-tenant/stackrox-collector/collector@sha256:9ed08f21c3cb3e955c02053299bec472702be4cbd12d416daff140b231ee4aa1
+      - image: quay.io/redhat-user-workloads-stage/zregvart-tenant/stackrox-collector/collector@sha256:ce70f6cc9f43c8062a8b2d6d210639aefc154d0fb20597fca005de21e45d2e75
         name: my-python
         ports:
         - containerPort: 8081
