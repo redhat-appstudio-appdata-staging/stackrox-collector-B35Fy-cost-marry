@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/zregvart-tenant/stackrox-collector/collector@sha256:f8256919bc06227cc86ecdf8d1cac309e1f9447254307f0f07287628fb9eb4c2
+      - image: quay.io/redhat-user-workloads-stage/zregvart-tenant/stackrox-collector/collector@sha256:57671a891e3b06be18cc96081e995fbe71b1e2d4cfa65b8e498ee7abbd28eb15
         name: my-python
         resources: {}
 status: {}
